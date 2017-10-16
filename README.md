@@ -2,3 +2,7 @@
 
 
 see https://drneurosurg.github.io/OCRwithVisionAndCoreML-Part1/
+
+
+I'm not sure how to inser code ... hmmm
+
