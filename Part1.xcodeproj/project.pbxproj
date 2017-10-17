@@ -12,6 +12,16 @@
 		2FC22DC41F94F15700C79308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DC21F94F15700C79308 /* Main.storyboard */; };
 		2FC22DC61F94F15700C79308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DC51F94F15700C79308 /* Assets.xcassets */; };
 		2FC22DC91F94F15700C79308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DC71F94F15700C79308 /* LaunchScreen.storyboard */; };
+		2FC22DD11F94F19100C79308 /* OCR.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2FC22DD01F94F18D00C79308 /* OCR.mlmodel */; };
+		2FC22DDF1F94F20900C79308 /* 0.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DD61F94F1F600C79308 /* 0.PNG */; };
+		2FC22DE01F94F20900C79308 /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DD81F94F20500C79308 /* 1.PNG */; };
+		2FC22DE11F94F20900C79308 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DDE1F94F20600C79308 /* 2.PNG */; };
+		2FC22DE21F94F20900C79308 /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DDA1F94F20500C79308 /* 3.PNG */; };
+		2FC22DE31F94F20900C79308 /* 4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DDD1F94F20600C79308 /* 4.PNG */; };
+		2FC22DE41F94F20900C79308 /* 5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DD91F94F20500C79308 /* 5.PNG */; };
+		2FC22DE51F94F20900C79308 /* 6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DDB1F94F20500C79308 /* 6.PNG */; };
+		2FC22DE61F94F20900C79308 /* 7.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DDC1F94F20600C79308 /* 7.PNG */; };
+		2FC22DE71F94F20900C79308 /* 8.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FC22DD71F94F20500C79308 /* 8.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		2FC22DC51F94F15700C79308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC22DC81F94F15700C79308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FC22DCA1F94F15700C79308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC22DD01F94F18D00C79308 /* OCR.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = OCR.mlmodel; sourceTree = "<group>"; };
+		2FC22DD61F94F1F600C79308 /* 0.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.PNG; path = Part1/Images/0.PNG; sourceTree = SOURCE_ROOT; };
+		2FC22DD71F94F20500C79308 /* 8.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.PNG; path = Part1/Images/8.PNG; sourceTree = SOURCE_ROOT; };
+		2FC22DD81F94F20500C79308 /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.PNG; path = Part1/Images/1.PNG; sourceTree = SOURCE_ROOT; };
+		2FC22DD91F94F20500C79308 /* 5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.PNG; path = Part1/Images/5.PNG; sourceTree = SOURCE_ROOT; };
+		2FC22DDA1F94F20500C79308 /* 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.PNG; path = Part1/Images/3.PNG; sourceTree = SOURCE_ROOT; };
+		2FC22DDB1F94F20500C79308 /* 6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.PNG; path = Part1/Images/6.PNG; sourceTree = SOURCE_ROOT; };
+		2FC22DDC1F94F20600C79308 /* 7.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.PNG; path = Part1/Images/7.PNG; sourceTree = SOURCE_ROOT; };
+		2FC22DDD1F94F20600C79308 /* 4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.PNG; path = Part1/Images/4.PNG; sourceTree = SOURCE_ROOT; };
+		2FC22DDE1F94F20600C79308 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.PNG; path = Part1/Images/2.PNG; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 		2FC22DBD1F94F15700C79308 /* Part1 */ = {
 			isa = PBXGroup;
 			children = (
+				2FC22DD41F94F1C500C79308 /* Images */,
+				2FC22DD01F94F18D00C79308 /* OCR.mlmodel */,
 				2FC22DBE1F94F15700C79308 /* AppDelegate.swift */,
 				2FC22DC01F94F15700C79308 /* ViewController.swift */,
 				2FC22DC21F94F15700C79308 /* Main.storyboard */,
@@ -62,6 +84,23 @@
 				2FC22DCA1F94F15700C79308 /* Info.plist */,
 			);
 			path = Part1;
+			sourceTree = "<group>";
+		};
+		2FC22DD41F94F1C500C79308 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2FC22DD61F94F1F600C79308 /* 0.PNG */,
+				2FC22DD81F94F20500C79308 /* 1.PNG */,
+				2FC22DDE1F94F20600C79308 /* 2.PNG */,
+				2FC22DDA1F94F20500C79308 /* 3.PNG */,
+				2FC22DDD1F94F20600C79308 /* 4.PNG */,
+				2FC22DD91F94F20500C79308 /* 5.PNG */,
+				2FC22DDB1F94F20500C79308 /* 6.PNG */,
+				2FC22DDC1F94F20600C79308 /* 7.PNG */,
+				2FC22DD71F94F20500C79308 /* 8.PNG */,
+			);
+			name = Images;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +162,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC22DE71F94F20900C79308 /* 8.PNG in Resources */,
+				2FC22DE61F94F20900C79308 /* 7.PNG in Resources */,
+				2FC22DE11F94F20900C79308 /* 2.PNG in Resources */,
+				2FC22DE21F94F20900C79308 /* 3.PNG in Resources */,
+				2FC22DE51F94F20900C79308 /* 6.PNG in Resources */,
+				2FC22DDF1F94F20900C79308 /* 0.PNG in Resources */,
+				2FC22DE41F94F20900C79308 /* 5.PNG in Resources */,
 				2FC22DC91F94F15700C79308 /* LaunchScreen.storyboard in Resources */,
+				2FC22DE31F94F20900C79308 /* 4.PNG in Resources */,
+				2FC22DE01F94F20900C79308 /* 1.PNG in Resources */,
 				2FC22DC61F94F15700C79308 /* Assets.xcassets in Resources */,
 				2FC22DC41F94F15700C79308 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC22DC11F94F15700C79308 /* ViewController.swift in Sources */,
+				2FC22DD11F94F19100C79308 /* OCR.mlmodel in Sources */,
 				2FC22DBF1F94F15700C79308 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
