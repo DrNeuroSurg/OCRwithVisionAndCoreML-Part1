@@ -1,11 +1,5 @@
 # OCRwithVisionAndCoreML-Part1
 
 
-see https://drneurosurg.github.io/OCRwithVisionAndCoreML-Part1/
-
-
-I'm not sure how to inser code ... hmmm
-
-I think you should use an
-`<addr>` element here instead.
+see http://www.neurosurg.de/2017/10/17/part-1-how-simple-is-it-ocr-without-tesseract-yeah/
 
