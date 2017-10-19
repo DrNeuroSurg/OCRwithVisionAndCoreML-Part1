@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //LETS LOAD AN IMAGE FROM RESOURCE (TRY ANOTHER ONE ...)
-        let ourFirstImage:UIImage = UIImage(named: "7.PNG")!
+        let ourFirstImage:UIImage = UIImage(named: "2.PNG")!
         
         //WE NEED AN CIIMAGE - NO NEED TO SCALE
         let ourInput:CIImage = CIImage(image:ourFirstImage)!
